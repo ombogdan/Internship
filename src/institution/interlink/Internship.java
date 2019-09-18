@@ -9,22 +9,15 @@ public class Internship {
     private ArrayList students = new ArrayList();
 
     public Internship(String name) {
+
         this.name = name;
     }
 
-    public void addStudent(Student student) {
+    public void addStudent(ArrayList<Student> student) {
         this.students.add(student);
     }
 
-    public ArrayList getStudents() {
-        return this.students;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public String getStudents() {
+        return this.students.toString();
     }
 }

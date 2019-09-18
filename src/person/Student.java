@@ -21,16 +21,9 @@ public class Student {
 
     public Student(String fullName, int level) {
         this.fullName = fullName;
-        Knowledge knowledge = new Knowledge(level);
+        this.knowledge = new Knowledge(level);
     }
 
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void addKnowledge(Knowledge knowledge) {
-        this.knowledge = knowledge;
-    }
 
     public Knowledge getKnowledge() {
         return knowledge;

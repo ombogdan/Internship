@@ -13,7 +13,4 @@ public class Knowledge {
         return level;
     }
 
-    public void addPoints(int points) {
-        this.level += points;
-    }
 }

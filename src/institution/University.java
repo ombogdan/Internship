@@ -12,9 +12,6 @@ public class University {
         this.name = name;
     }
 
-    public ArrayList<Student> getStudents(Student student) {
-        return this.students;
-    }
 
     public void addStudent(Student student) {
         this.students.add(student);
